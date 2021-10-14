@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+
+body {
+  /* align-content: center; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* min-height: 100vh; */
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  height: 250px;
+  margin-top: 4rem;
+  padding: .5rem;
+  width: 600px;
+}
+
+.author {
+  align-items: center;
+  display: flex;
+  line-height: 1.4;
+  margin: auto;
+  padding: 1rem;
+}
+
+.author__avatar {
+  border-radius: 50%;
+  display: block;
+  height: 10rem;
+  margin-right: 1rem;
+  width: 10rem;
+}
